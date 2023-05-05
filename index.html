@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es"
+
+xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://ogp.me/ns/fb#">
+
+    <head>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Barbería Alura" />
+    <meta property="og:description" content="Proyecto del curso de HTML5 & CSS3 de Alura LATAM">
+    <meta property="og:image" content="./img/portada.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Alura</title>
+    <link rel="icon" type="image/jpg" href="./img/favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="./CSS/menu_hamburguesa.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>
+                <img src="./img/logo-blanco.png" href="index.html" alt="Alura" class="logo">
+
+            </h1>
+                        
+        </div>
+
+    </header>
+    <button class="panel-btn hamburger hamburger--emphatic" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+    <aside class="panel">
+        <nav class="menu">
+            <a href="">Home</a>
+            <a href="./productos.html">Productos</a>
+            <a href="">Contacto</a>
+        </nav>
+    </aside>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="texto">
+                    <h1>Barbería Alura LATAM</h1>
+                 </div>
+                
+            </div>
+        </section>
+    
+        <section id="acercaDe">
+            <div class="container">
+               <h2>Sobre la Barbería Alura</h2>
+                <p id="acerca">Ubicada en el corazón de la ciudad, la Barbería Alura trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>  
+           </div>
+    
+        </section>
+        
+        <section id="mision">
+            <div class="img-container"  id="mision-pic"></div>
+            <div class="container">
+                <p class="mision-p" >Nuestra misión es: "Proporcionar autoestima y calidad de vida a nuestros clientes". </p>
+                <p class="ofrece" > Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias.
+                 El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
+                </div>
+           </section>
+    
+        <section id="diferenciales">
+            <div class="container">
+                <div class="img-container"  id="side-pic"></div>
+                <div class="lista">
+                    <h2 >¿Qué nos hace diferentes?</h2>
+                    <ul>
+                        <li>Atención personalizada</li>
+                        <li>Espacio diferenciado</li>
+                        <li>Localización</li>
+                        <li>Profecionales calificados</li> 
+                    </ul>
+                    
+                </div>
+    
+            </div>
+        </section>
+
+    </main>
+
+    
+    <script src="./js/index_dom.js" type="module"></script>
+    
+</body>
+</html>

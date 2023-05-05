@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0; 
+    width: 100%
+   
+    /* color:aliceblue; 
+    background-color: black */;   
+        
+}
+
+h1{font-size: 2em; text-align: center;}
+h2{font-size: 1.5em; text-align: center;}
+p{font-size: 15px; text-align: justify;}
+a{color: white;}
+
+
+
+
+
+ #hero{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: rgb(175, 175, 175);
+    background-image: linear-gradient( 0deg, rgb(11, 0, 15), rgba(29, 1, 19, 0.5) ) ,url(/img/barber.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 114px 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+
+#hero .texto{
+    font-weight: bold;
+    text-align: center;
+}
+
+#acercaDe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: -45px;
+}
+
+#acercaDe .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+#mision{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#mision .container{
+    padding: 25px;
+    
+    
+}
+
+#mision .mision-p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+
+
+
+#diferenciales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+#diferenciales .container{
+    padding: 10px;
+
+}
+
+#diferenciales .lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+#diferenciales h2{
+    font-size: 1.5em;
+}
+
+#diferenciales .img-container{
+        display: flex;
+    flex-direction: column;
+    background-image: url(/img/diferenciales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-position: center center;
+}
+
+
+
+
+
+@media(min-width:1000px) {
+ 
+  
+    p{
+        font-size: 1em;
+    }
+    
+  
+   
+    
+    #hero{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 419px 0px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    #hero .texto{
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #acercaDe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 337px;
+}
+    
+    #acercaDe .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mision .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 169px 337px;
+    }
+
+    #mision .mision-p{
+        font-size: 2em;
+    }
+    
+
+
+    #diferenciales{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 166px 493px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    #diferenciales .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #diferenciales .lista{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+
+
+
+
+
+    #diferenciales .img-container{
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 324px;
+        width: 599px;
+        background-position: center center;
+    }
+}       
+
