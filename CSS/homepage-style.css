@@ -34,7 +34,7 @@ a{color: white;}
     display: flex;
     align-items: center;
     color: rgb(175, 175, 175);
-    background-image: linear-gradient( 0deg, rgb(11, 0, 15), rgba(29, 1, 19, 0.5) ) ,url(img/barber.jpg);
+    background-image: linear-gradient( 0deg, rgb(11, 0, 15), rgba(29, 1, 19, 0.5) ), url(/img/barber.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
