@@ -3,7 +3,9 @@
   --main-color:black;
   --second-color: rgb(241, 241, 241);
   --link-color:rgb(188, 88, 255);
-  --gray-color:rgb(26, 26, 26);;
+  --gray-color:rgb(26, 26, 26);
+  --soft-gray: rgb(168, 166, 166);
+  --neon-blue:rgb(68, 191, 248);
   --container-width:1200px;
   --font-size: 1.1em;  
   --main-font: 'Poppins', sans-serif; 
