@@ -32,7 +32,7 @@ body{
 }
 
 h1{font-size: 2em; text-align: center;}
-h2{font-size: 1.5em; text-align: center;}
+h2{font-size: 1.6em; text-align: center;}
 p{font-size: 15px; text-align: justify;}
 
 
@@ -54,7 +54,7 @@ p{font-size: 15px; text-align: justify;}
    
 }
 
-#hero .texto{
+#hero .titulo{
     font-weight: bold;
     text-align: center;
 }
@@ -65,14 +65,14 @@ p{font-size: 15px; text-align: justify;}
     justify-content: center;
     align-items: center;
     padding: 25px;
-    margin-bottom: -45px;
+    margin-bottom: 20px;
 }
 
 #acercaDe .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px;
+    margin: 10px 5px;
 }
 
 #mision{
@@ -88,12 +88,16 @@ p{font-size: 15px; text-align: justify;}
     
 }
 
-#mision .mision-p{
-    text-align: center;
+ .mision-p{
+    text-align: justify;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
+.texto{
+    display: flex;
+    text-align: justify;
+}
 
 
 
@@ -120,7 +124,7 @@ p{font-size: 15px; text-align: justify;}
 }
 
 #diferenciales h2{
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 #diferenciales .img-container{
@@ -152,14 +156,13 @@ p{font-size: 15px; text-align: justify;}
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        padding: 419px 0px;
-        flex-direction: column;
+        padding: 233px 0px;        flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
     }
     
-    #hero .texto{
-        font-size: 2em;
+    #hero .titulo{
+        font-size: 1.5em;
         font-weight: bold;
         text-align: center;
     }
@@ -169,8 +172,7 @@ p{font-size: 15px; text-align: justify;}
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px 337px;
-}
+        padding: 149px 254px;}
     
     #acercaDe .container{
         display: flex;
@@ -186,8 +188,9 @@ p{font-size: 15px; text-align: justify;}
     padding: 169px 337px;
     }
 
-    #mision .mision-p{
+    .mision-p{
         font-size: 2em;
+        text-align: center;
     }
     
 

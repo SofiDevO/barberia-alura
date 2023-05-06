@@ -1,7 +1,7 @@
 /* Reset css */
 :root{
     --main-color:black;
-    --second-color: rgb(255, 255, 255);
+    --second-color: rgb(241, 241, 241);
     --link-color: rgb(209, 171, 0);
     --gray-color:rgb(26, 26, 26);;
     --container-width:1200px;
@@ -13,4 +13,104 @@
 
 *{
     box-sizing: border-box;
+}
+body{
+  background-repeat: no-repeat;
+  background-color: var(--main-color);
+  background-size: cover;
+  }
+    
+p{text-align: center;  font-size: var(--font-size);
+}
+
+.header{
+  background-color: var(--second-color);
+}
+
+#servicios{
+  margin-top: 99px;
+  display: flex;
+  flex-direction: column;
+}
+.tarjetas{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-items: center; 
+  justify-content: center; 
+  align-content: center;
+  gap: 20px;
+  
+}
+
+
+.tarjeta-servicio{
+  border: solid;
+  border-color: var(--main-color);
+  border-radius: 26px;
+  box-shadow: 0px 0px 9px var(--link-color);
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+  align-items: center;
+  
+}
+
+label{
+  background-color: var(--second-color);
+}
+
+.titulo{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  display: flex;
+  padding: 14px;
+}
+
+
+.tarjeta-servicio img{
+  max-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:700px){
+
+  /* body{
+    background-image: url(../img/diferenciales.jpg);
+    background-repeat: no-repeat;
+      background-size: cover;
+    } */
+
+  .tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3, .2fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    overflow: overlay;
+    gap: 15px;
+    padding: 15px;  }
+  
+  .tarjeta-servicio{
+    display: flex;
+    border: solid;
+    border-color: var(--main-color);
+    border-radius: 26px;
+    box-shadow: 2px 1px 16px var(--link-color);
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  label{
+    background-color: var(--second-color);
+  }
 }
