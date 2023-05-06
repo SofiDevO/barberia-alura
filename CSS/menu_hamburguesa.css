@@ -1,55 +1,17 @@
 /* Reset css */
 :root{
   --main-color:black;
-  --second-color: rgb(255, 255, 255);
-  --link-color: rgb(209, 171, 0);
+  --second-color: rgb(241, 241, 241);
+  --link-color:rgb(188, 88, 255);
   --gray-color:rgb(26, 26, 26);;
   --container-width:1200px;
-  --font-size: 16px;  
+  --font-size: 1.1em;  
   --main-font: 'Poppins', sans-serif; 
+
 }
 
 
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
-/* 
-html{
-  font-family: var(--main-font);
-  font-size: var(--font-size);
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  } */
-
-
-
-
-
-  *,
-  *:before,
-  *:after{
-    box-sizing: inherit;
-  }
-
-  body{    
-    margin: 0;
-    overflow-x: hidden;
-    
-    
-  }
-  
-  img,
-  video {
-    max-width: 100%;
-    height: auto;
-  }
-
-
-
-  /* menu hamburguesa */
-
-
+/* menu hamburguesa */
   .header{
     position: sticky;
     z-index: 996;
