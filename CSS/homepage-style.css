@@ -131,7 +131,6 @@ p{font-size: 15px; text-align: justify;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: -15px;
     margin-bottom: 57px;
     color: var(--second-color);
 
