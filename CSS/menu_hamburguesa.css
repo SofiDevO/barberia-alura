@@ -9,7 +9,8 @@
   --container-width:1200px;
   --font-size: 1.1em;  
   --main-font: 'Poppins', sans-serif; 
-
+  --boxshadow: 1px 0px 30px  rgb(188, 88, 255);
+  --boxshadow-hover: 1px 0px 30px  rgb(68, 191, 248);
 }
 *,
 *:before,

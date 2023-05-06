@@ -12,6 +12,7 @@ body{
     overflow-x: hidden;
     font-family: var(--main-font);
     width: 100%;
+    background-color: var(--gray-color);
     
 }
 
@@ -33,10 +34,20 @@ p{font-size: 15px; text-align: justify;}
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 35px;
+    padding: 11px;
     color: var(--second-color);
     border-radius: 35px;
+    box-shadow: var(--boxshadow);
+
 }
+.caja:hover{
+    box-shadow: var(--boxshadow-hover);
+}
+
+.agenda{
+    font-size: 2em;
+}
+
 .contacto{
     display: flex;
     flex-direction: column-reverse;
@@ -61,14 +72,24 @@ p{font-size: 15px; text-align: justify;}
     text-align: center;
 }
 
-.contact-form{
-}
+
 
 .submit{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 39px;
+}
+.submit input{
+    font-size: 1.3em;
+    border: 2px solid var(--link-color);
+    border-radius: 25px;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    box-shadow: 0px -1px 10px  var(--link-color);
+}
+.submit input:hover{
+    box-shadow: 0px -1px 10px   var(--neon-blue);
 }
 
 
@@ -87,15 +108,16 @@ p{font-size: 15px; text-align: justify;}
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 43px;
+        padding: 20px;
         color: var(--second-color);
         border-radius: 35px;
     }
     .contacto{
         display: flex;
         flex-direction: row;
-        padding: 59px 0px;
+        padding: 55px 0px;
         justify-content: center;
+        gap: 78px;
     }
     
     
@@ -106,10 +128,9 @@ p{font-size: 15px; text-align: justify;}
     .img-wrapper img{
         display: flex;
         flex-direction: column;
-        width: 419px;
-        height: auto;
+        width: 318px;
+        height: 341px;
         padding: 0px;
-        margin-right: 31px;
     }
 
 }
