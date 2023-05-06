@@ -1,5 +1,5 @@
 
-a{text-decoration: none; color: var(--second-color);}
+
 
 
 footer{
@@ -136,16 +136,14 @@ footer{
       justify-content: center;
       font-weight: 600;
       color: var(--link-color);
-      font-size: 15px;
+      font-size: 16px;
     }
     
-      .enlaces li {
-      color: var(--link-color);
+      .enlaces  li {
+      color: var(--neon-blue);
     }
   
-    .menu-footer li{
-      color: var(--link-color);
-    }
+   
     .enlaces{
       display: flex;
       display: flex;

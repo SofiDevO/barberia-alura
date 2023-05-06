@@ -14,7 +14,7 @@ body{
     
 p{text-align: center;  font-size: var(--font-size);}
 a{text-decoration: none; color:var(--second-color);}
-a:hover{color:  var(--link-color);}
+a:hover{color:  var(--neon-blue);}
 .header{
   background-color: var(--second-color);
 }
