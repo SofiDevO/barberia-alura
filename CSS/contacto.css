@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: var(--main-font);
+    width: 100%;
+    
+}
+
+h1{font-size: 2em; text-align: center;}
+h2{font-size: 1.6em; text-align: center;}
+p{font-size: 15px; text-align: justify;}
+
+#formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 97px 6px;
+    text-align: center;
+}
+.caja{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 43px;
+    color: var(--second-color);
+    border-radius: 35px;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    padding: 59px 0px;
+    justify-content: center;
+}
+
+
+.img-wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+.img-wrapper img{
+    display: flex;
+    flex-direction: column;
+    width: 419px;
+    height: auto;
+    padding: 0px;
+    margin-right: 31px;
+}

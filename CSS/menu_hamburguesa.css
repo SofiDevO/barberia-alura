@@ -139,7 +139,7 @@ a:hover{color:  var(--neon-blue);}
   .panel-btn{
     position: fixed;
     z-index: 999;
-    bottom: 90vh;
+    bottom: 87.5vh;
     right: 4vw;
     width: 4rem;
     height: 4rem;

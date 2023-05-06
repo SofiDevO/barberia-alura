@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
     <link rel="stylesheet" href="./CSS/menu_hamburguesa.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
     <link rel="stylesheet" href="./CSS/footer.css">
-    <link rel="stylesheet" href="./CSS/products-style.css">
     
 </head>
 <body>
+    <!-- Cabecera con menu Hamburguesa -->
     <header class="header">
         <div class="container">
             <h1>
-             <a href="./index.html"> <img src="./img/logo.png" alt="Alura" class="logo"></a>
+             <a href="./index.html"> <img src="./img/logo-blanco.png" alt="Alura" class="logo"></a>
 
             </h1>
                         
@@ -33,46 +34,46 @@
     <aside class="panel">
         <nav class="menu">
             <a href="./index.html">Home</a>
+            <a href="">Productos</a>
             <a href="https://github.com/SofiDevO/barberia-alura" target="_blank"  rel="noreferrer noopener">Ver repositorio</a>
-            <a href="./contacto.html">Contacto</a>
         </nav>
     </aside>
 
+    <!-- Fin de cabecera -->
 
     <main>
-        <Section id="servicios">
+        <section id="formulario-contacto">
 
-            <h2 class="servicios-titulo">Nuestros Servicios</h2>
-            <div class="tarjetas">
-                          
-                <div class="tarjeta-servicio" for="Cabello">
-                    <h2 class="titulo">Cabello</h2>
-                    <img src="./img/cabello.png" alt="cabello">
-                    <p class="descripcion">Con tijera o maquina,  a gusto del cliente</p>
-                    <p class="precio">$10.00</p>
+            <div class="caja">
+                <legend>Agenda una cita</legend>
+                <div class="contacto">
+                    <div class="img-wrapper">
+                        <img src="./img/barber.jpg" alt="babrbero" class="contact-img">
+                    </div>
+                    <div class="rigth-side">
+                        <form class="contact-form">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" name="name" placeholder="Ingresa tu nombre" title="Solo se aceptan letras y espacios en blanco">
+                            <input type="submit" value="enviar">
+                        </form>
+                    </div>
+                    
                 </div>
+            </div>
+            
 
-                <div class="tarjeta-servicio" for="Cabello">
-                    <h2 class="titulo">Barba</h2>
-                    <img src="./img/barba.png" alt="cabello">
-                    <p class="descripcion">Corte y diseño profesional de Barba</p>
-                    <p class="precio">$08.00</p>
-                </div>
-                     
+        </section>
+    
 
-                <div class="tarjeta-servicio" for="Cabello">
-                    <h2 class="titulo">Cabello + Barba</h2>
-                    <img src="./img/barba+cabello.png" alt="cabello">
-                    <p class="descripcion">Paquete completo de cabello y Barba</p>
-                    <p class="precio">$15.00</p>
-                </div>
-            </Section>
+
+
     </main>
 
-    <footer>
+    <!-- Inicio del footer -->
+     <footer>
         <div class="container">
             <a href="./index.html">
-                <div class="logo-footer">
+                <div class="logo-footer">contacto
                     <img src="./img/logo-blanco.png" alt="">
                     <p>&copy; SofiDev</p>
                 </div>
@@ -137,18 +138,5 @@
         </div>
 
         </footer>
-            
-        
-
-
-                    
-        
-
-            
-        
-
-
-      
-    <script src="./js/index_dom.js" type="module"></script>
-</body>
-</html>
+        <script src="./js/index_dom.js" type="module"></script>
+</body>    
