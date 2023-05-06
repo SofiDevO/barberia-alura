@@ -91,12 +91,19 @@ p{font-size: 15px; text-align: justify;}
  .mision-p{
     text-align: justify;
     font-weight: 700;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.sobre{
     font-size: 1.5em;
+    padding: 47px;
 }
 
 .texto{
     display: flex;
     text-align: justify;
+    
 }
 
 
@@ -111,7 +118,7 @@ p{font-size: 15px; text-align: justify;}
 }
 
 #diferenciales .container{
-    padding: 10px;
+    padding: 0px;
 
 }
 
@@ -124,7 +131,9 @@ p{font-size: 15px; text-align: justify;}
 }
 
 #diferenciales h2{
-    font-size: 1.6em;
+    font-size: 1.4em;
+    padding-bottom: 36px;
+    padding-top: 40px;
 }
 
 #diferenciales .img-container{
@@ -156,7 +165,7 @@ p{font-size: 15px; text-align: justify;}
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        padding: 233px 0px;        flex-direction: column;
+        padding: 276px 0px;        flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
     }
@@ -189,7 +198,7 @@ p{font-size: 15px; text-align: justify;}
     }
 
     .mision-p{
-        font-size: 2em;
+        font-size: 1.3em;
         text-align: center;
     }
     
@@ -213,6 +222,7 @@ p{font-size: 15px; text-align: justify;}
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 54px;
         
     }
     
