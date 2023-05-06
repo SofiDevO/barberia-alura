@@ -1,3 +1,15 @@
+:root{
+    --main-color:black;
+    --second-color: rgb(255, 255, 255);
+    --link-color: rgb(209, 171, 0);
+    --gray-color:rgb(26, 26, 26);;
+    --container-width:1200px;
+    --font-size: 16px;  
+    --main-font: 'Poppins', sans-serif; 
+
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     box-sizing: border-box;
     
@@ -7,11 +19,10 @@ html{
     scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 body{
-    font-family: 'Poppins', sans-serif; 
+    font-family: var(--main-font);
     margin: 0; 
     width: 100%
    
@@ -23,7 +34,6 @@ body{
 h1{font-size: 2em; text-align: center;}
 h2{font-size: 1.5em; text-align: center;}
 p{font-size: 15px; text-align: justify;}
-a{color: white;}
 
 
 
@@ -33,8 +43,8 @@ a{color: white;}
     margin: 0;
     display: flex;
     align-items: center;
-    color: rgb(175, 175, 175);
-    background-image: linear-gradient( 0deg, rgb(11, 0, 15), rgba(29, 1, 19, 0.5) ), url(/img/barber.jpg);
+    color: var(--link-color);
+    background-image: linear-gradient( 0deg, rgb(11, 0, 15), rgba(29, 1, 19, 0.5) ) , url(/img/barber.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -93,7 +103,7 @@ a{color: white;}
     align-items: center;
     padding: 10px;
     background-color: black;
-    color: antiquewhite;
+    color: var(--second-color);
 }
 
 #diferenciales .container{
@@ -116,7 +126,7 @@ a{color: white;}
 #diferenciales .img-container{
         display: flex;
     flex-direction: column;
-    background-image: url(/img/diferenciales.jpg);
+    background-image: url(img/barber.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
