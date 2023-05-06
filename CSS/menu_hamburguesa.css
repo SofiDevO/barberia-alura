@@ -144,8 +144,30 @@ body{
     background-color: var(--second-color);
   }
 
+
+
+
+  .panel{
+    position: fixed;
+    z-index: 997;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 10%;
+    width: 60%;
+    display: flex;
+    background-color:var(--main-color);
+    transition:transform .3s ease;
+    /* Menu sale de la derecha */
+    transform: translate(100%, 0%);
+  }
+
   
-  
+  .panel.is-active{
+    transform: translate(30%, 0%);
+    display: flex;
+    justify-content: left;
+  }
   
 
   }
