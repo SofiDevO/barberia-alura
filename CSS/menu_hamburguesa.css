@@ -132,7 +132,7 @@ body{
   .panel-btn{
     position: fixed;
     z-index: 999;
-    bottom: 88vh;
+    bottom: 90vh;
     right: 4vw;
     width: 4rem;
     height: 4rem;
