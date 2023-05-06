@@ -126,7 +126,7 @@ p{font-size: 15px; text-align: justify;}
 #diferenciales .img-container{
         display: flex;
     flex-direction: column;
-    background-image: url(img/barber.jpg);
+    background-image: url(/img/diferenciales.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
