@@ -13,7 +13,7 @@ footer{
   
   footer .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     width: 100%;
     margin: 0px 18px;
@@ -23,8 +23,11 @@ footer{
   .logo-footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-right: -15px;
+    margin-top: 13px;
+    color: var(--second-color);
+    
   }
 
   
@@ -100,15 +103,17 @@ footer{
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
-      margin: 0px 18px;
-      
+      margin: 0px 47px;
     }
+      
+      
     
     
   
     
     footer img{
       width: 60px;
+      margin-bottom: 35px;
     }
     .menu-footer{
       display: flex;
