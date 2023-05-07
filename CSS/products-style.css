@@ -64,13 +64,8 @@ a:hover{color:  var(--neon-blue);}
 }
 
 .tarjeta-servicio:hover{
-  background-color:var(--soft-gray);
-  box-shadow: 10px 5px 26px  var(--neon-blue);
-  width: 289px;
-
   
-
-
+  box-shadow: 10px 5px 26px  var(--neon-blue);
 }
 
 .titulo{
@@ -130,10 +125,7 @@ a:hover{color:  var(--neon-blue);}
     flex-direction: column;
     width: 255px;
   }
-  .tarjeta-servicio:hover{
-    width: 340px;
-
-  }
+  
   .descripcion{
     font-size: 14px;
   font-weight:200;
