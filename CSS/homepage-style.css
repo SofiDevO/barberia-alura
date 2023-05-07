@@ -12,8 +12,8 @@ body{
     overflow-x: hidden;
     font-family: var(--main-font);
     width: 100%;
-    /* color:aliceblue; 
-    background-color: black */; 
+    /* color:aliceblue;*/ 
+    background-color: black ; 
 }
 
    
@@ -67,6 +67,7 @@ p{font-size: 15px; text-align: justify;}
     align-items: center;
     padding: 25px;
     margin-bottom: 20px;
+    background-color: rgb(211, 211, 211);
 }
 
 #acercaDe .container{
@@ -119,7 +120,8 @@ p{font-size: 15px; text-align: justify;}
 }
 
 #diferenciales .container{
-    padding: 0px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -209,13 +211,12 @@ p{font-size: 15px; text-align: justify;}
 
 
     #diferenciales{
-        display: flex;
-        justify-content: space-evenly;
-        padding: 166px 493px;
-        display: flex;
-        justify-content: space-evenly;
-        
+        padding: 16px 0px;
     }
+    
+    
+        
+    
 
     #diferenciales .container{
         display: flex;
@@ -243,12 +244,9 @@ p{font-size: 15px; text-align: justify;}
 
 
     #diferenciales .img-container{
-        display: flex;
-        flex-direction: column;
-        background-repeat: no-repeat;
-        background-size: cover;
+        display: flex; 
         height: 324px;
-        width: 599px;
+        width: 275px;
         background-position: center center;
     }
 }       

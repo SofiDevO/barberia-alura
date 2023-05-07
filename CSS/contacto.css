@@ -36,6 +36,7 @@ p{font-size: 15px; text-align: justify;}
     color: var(--second-color);
     border-radius: 35px;
     box-shadow: var(--boxshadow);
+    width: 98%;
 
 }
 .caja:hover{
@@ -59,8 +60,11 @@ p{font-size: 15px; text-align: justify;}
     justify-content: flex-start;
 }
 .img-wrapper img{
-    width: 270px;
-    padding-top: 55px;
+    display: flex;
+    height: 324px;
+    width: 279px;
+    background-position: center center;
+    margin-top: 58px;
     
 }
 .rigth-side{
@@ -123,6 +127,7 @@ input{
     .caja{
         background-color: var(--main-color);
         padding: 16px;
+        width: 800px;
         
     }
     .contacto{
@@ -139,11 +144,7 @@ input{
         justify-content: flex-start;
     }
     .img-wrapper img{
-        display: flex;
-        flex-direction: column;
-        width: 318px;
-        height: 341px;
-        padding: 0px;
+        width: 275px;
     }
 
 }
