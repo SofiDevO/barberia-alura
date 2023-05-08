@@ -100,6 +100,14 @@ input{
 
 
 
+.contacto-opcion{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 .submit input{
     margin-top: 14px;
     font-size: 1em;
@@ -116,6 +124,7 @@ input{
 
 
 @media(min-width:800px){
+   
     #formulario-contacto{
         display: flex;
         flex-direction: column;
@@ -126,16 +135,16 @@ input{
     }
     .caja{
         background-color: var(--main-color);
-        padding: 16px;
-        width: 800px;
-        
+        padding: 36px 0px;
+        width: 868px;
     }
+        
+    
     .contacto{
         display: flex;
-        flex-direction: row;
-        padding: 55px 0px;
-        justify-content: center;
-        gap: 40px;
+    flex-direction: row-reverse;
+    padding: 30px 0px;
+    justify-content: space-evenly;
     }
     
     
@@ -143,8 +152,17 @@ input{
         display: flex;
         justify-content: flex-start;
     }
+
     .img-wrapper img{
         width: 275px;
     }
 
+    .inputs{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    }
 }

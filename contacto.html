@@ -60,15 +60,51 @@
                             
                             <div class="inputs">
                                 <label for="email">E-mail</label>
-                                <input type="email" name="email" placeholder=" tu correo electrónico" title="Email incorrecto"  required>
+                                <input type="email" name="email" placeholder=" tu correo electrónico" title="Email incorrecto" required>
+                            </div>
+                            <div class="inputs">
+                                <label for="telefo">Telefono</label>
+                                <input type="tel" name="telefono" placeholder="(Código de área) Número"  required>
+                            </div>
+                           
+                            <div class="inputs">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea name="mensaje" cols="34" rows="4" placeholder="Deja tu mensaje" pattern=" ^.{1,255}$" required ></textarea>
                             </div>
 
+                            <!-- Opcion para ser contactado -->
+                            
+                            <H2>Opción de contacto preferida</H2>
+                            <div class="contacto-opcion">
+                                
+                                <label for="radio-email">Email</label>
+                                <input type="radio" name="contacto-opcion" id="email">
+                            </div>
+
+                            <div class="contacto-opcion">
+                                <label for="radio-telefono">Teléfono</label>
+                                <input type="radio" name="contacto-opcion"  id="telefono">
+                            </div>
+
+                            
+                            <div class="contacto-opcion">
+                                <label for="radio-whatsapp">Whatsapp</label>
+                                <input type="radio" name="contacto-opcion" id="Whatsapp">                        
+                            </div>    
+                                
+                            
+                              
+
+                        </div>
+                              
+                </div>
+
+                            <!-- Boton, enviar  -->
                             <div class="submit">
                                 <input  type="submit" value="enviar">
                             </div>
 
                         </form>
-                    </div>
                     
                 </div>
             </div>
