@@ -50,11 +50,12 @@
                     <div class="img-wrapper">
                         <img src="./img/vertical.jpg" alt="babrbero" class="contact-img">
                     </div>
+
                     <div class="rigth-side">
                         <form class="contact-form">
                             
                             <div class="inputs">
-                                <label for="Nombre">Nombre</label>
+                                <label for="name">Nombre</label>
                                 <input type="text" name="name" placeholder="Tu nombre y apellido" title="Solo se aceptan letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
                             </div>
                             
@@ -73,36 +74,35 @@
                             </div>
 
                             <!-- Opcion para ser contactado -->
-                            
-                            <H2>Opción de contacto preferida</H2>
+                            <div class="titulo-contacto">
+                                <H2>Opción de contacto preferida</H2>
+                            </div>
+
                             <div class="contacto-opcion">
                                 
                                 <label for="radio-email">Email</label>
-                                <input type="radio" name="contacto-opcion" id="email">
+                                <input type="radio" name="contacto-opcion" id="radio-email">
                             </div>
 
                             <div class="contacto-opcion">
                                 <label for="radio-telefono">Teléfono</label>
-                                <input type="radio" name="contacto-opcion"  id="telefono">
+                                <input type="radio" name="contacto-opcion"  id="radio-telefono">
                             </div>
 
                             
                             <div class="contacto-opcion">
                                 <label for="radio-whatsapp">Whatsapp</label>
-                                <input type="radio" name="contacto-opcion" id="Whatsapp">                        
-                            </div>    
-                                
-                            
-                              
-
+                                <input type="radio" name="contacto-opcion" id="radio-whatsapp">                        
+                            </div>  
+                             <!-- Boton, enviar  -->
+                    <div class="submit">
+                        <input  type="submit" value="enviar">
+                    </div>
                         </div>
                               
                 </div>
 
-                            <!-- Boton, enviar  -->
-                            <div class="submit">
-                                <input  type="submit" value="enviar">
-                            </div>
+                   
 
                         </form>
                     
