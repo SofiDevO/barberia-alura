@@ -106,6 +106,9 @@ input{
    text-align: center;
 }
 
+.titulo-contacto p{
+    font-size: 1.2em;
+}
 .contacto-opcion{
     display: flex;
     flex-direction: column;
@@ -132,6 +135,14 @@ input{
     box-shadow: 0px -1px 10px   var(--neon-blue);
 }
 
+
+.horarios p{
+    font-size: 1.2em;
+}
+.horarios select{
+    font-size: 1.2em;    
+
+}
 
 @media(min-width:800px){
    
