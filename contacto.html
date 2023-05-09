@@ -64,6 +64,7 @@
                                 <label for="email">E-mail</label>
                                 <input type="email" name="email" placeholder=" tu correo electrónico" title="Email incorrecto" required>
                             </div>
+
                             <div class="inputs">
                                 <label for="telefo">Telefono</label>
                                 <input type="tel" name="telefono" placeholder="(Código de área) Número"  required>
@@ -71,51 +72,71 @@
                            
                             <div class="inputs">
                                 <label for="mensaje">Mensaje</label>
-                                <textarea name="mensaje" cols="34" rows="4" placeholder="Deja tu mensaje" pattern=" ^.{1,255}$" required ></textarea>
-                            </div>
-
-                            <!-- Opcion para ser contactado -->
-                            <div class="titulo-contacto">
-                                <p>Opción de contacto preferida</p>
-                            </div>
-
-                            <div class="contacto-opcion">
-                                
-                                <label for="radio-email">Email</label>
-                                <input type="radio" name="contacto-opcion" id="radio-email" required>
-                            </div>
-
-                            <div class="contacto-opcion">
-                                <label for="radio-telefono">Teléfono</label>
-                                <input type="radio" name="contacto-opcion"  id="radio-telefono" required>
+                                <textarea name="mensaje" cols="34" rows="4" placeholder="Deja tu mensaje" data-pattern=" ^.{1,255}$" required ></textarea>
                             </div>
 
 
-                            <div class="contacto-opcion">
-                                <label for="radio-whatsapp">Whatsapp</label>
-                                <input type="radio" name="contacto-opcion" id="radio-whatsapp" required>                        
-                            </div>  
+                            
+
+                    <!-- Opcion para ser contactado -->
+                            <fieldset>
+                                <div class="titulo-contacto">
+                                    <legend>Opción de contacto preferida</legend>
+                                </div>
+    
+                                <div class="contacto-opcion">
+                                    
+                                    <label for="radio-email">Email</label>
+                                    <input type="radio" name="contacto-opcion" id="radio-email" required>
+                                </div>
+    
+                                <div class="contacto-opcion">
+                                    <label for="radio-telefono">Teléfono</label>
+                                    <input type="radio" name="contacto-opcion"  id="radio-telefono" required>
+                                </div>
+    
+    
+                                <div class="contacto-opcion">
+                                    <label for="radio-whatsapp">Whatsapp</label>
+                                    <input type="radio" name="contacto-opcion" id="radio-whatsapp" required>                        
+                                </div>  
+                            </fieldset>
+                                    
+                           
 
 
-                            <!-- Horarios -->
-                            <div class="horarios">
-                                <p>Horario Preferido</p>
-                                <select required>
-                                    <option>Elegir una </option>
-                                    <option>Mañana</option>
-                                    <option>Tarde</option>
-                                    <option>Noche</option>
-                                </select>
-                            </div>
+                    <!-- Horarios -->
+                            <fieldset>
+                                <div class="horarios">
+                                    <legend>Horario Preferido</legend>
+                                    <select>
+                                        <option>Elegir una </option>
+                                        <option>Mañana</option>
+                                        <option>Tarde</option>
+                                        <option>Noche</option>
+                                    </select>
+                                </div>
+
+                            </fieldset>
+                           
 
 
+                      
 
 
-                             <!-- Boton, enviar  -->
+                    <!-- Boton, enviar  -->
                     <div class="submit">
                         <input  type="submit" value="enviar">
                     </div>
-                        </div>
+                    
+
+                    <!-- Loader -->
+                    <div class="contact-form-loader">
+                        <img src="./assets/three-dots.svg" alt="Cargando">
+                    </div>
+
+                </div>
+
                               
                 </div>
 
