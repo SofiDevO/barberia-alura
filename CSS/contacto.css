@@ -93,17 +93,17 @@ p{font-size: 15px; text-align: justify;}
     align-items: center;
 }
 
-.inputs textarea{
+/* .inputs textarea{
     width: 195px;
 }
-
+ */
 label{
     font-size: 1em;
     width: 66px;
 }
 .inputs input{
     padding: 12px 0px;
-    width: 203px;
+    /* width: 203px; */
 
 }
 
@@ -213,9 +213,9 @@ label{
     width: 283px;
 }
 
-.inputs textarea{
+/* .inputs textarea{
     width: 225px;
-}
+} */
 
 label{
     font-size: 1em;
