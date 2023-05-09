@@ -54,6 +54,11 @@ p{font-size: 15px; text-align: justify;}
     align-items: center;
 }
 
+.contacto-opcion label{
+    width: 89px;
+
+}
+
 
 .img-wrapper{
     display: flex;
@@ -83,22 +88,22 @@ p{font-size: 15px; text-align: justify;}
 .inputs{
     display: flex;
     flex-direction: row;
-    padding: 8px 1px;
+    padding: 14px 0px;
     justify-content: center;
     align-items: center;
-    gap: 4px;
 }
 
 .inputs textarea{
-    width: 225px;
+    width: 195px;
 }
+
 label{
     font-size: 1em;
-    margin: 0px 3px;
+    width: 66px;
 }
-input{
+.inputs input{
     padding: 12px 0px;
-    width: 225px;
+    width: 203px;
 
 }
 
@@ -114,31 +119,52 @@ input{
     flex-direction: column;
 }
 
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 39px;
+    margin-bottom: 4px;
+    padding: 0;
+}
 
+.newsletter input{
+    padding: 0px;
+    width: 16px;
+}
 
+.newsletter legend{
+    font-size: 12px;
+}
 
 .submit input{
     display: flex;
     text-align: center;
     margin-top: 14px;
-    font-size: 1em;
+    font-size: 1.5em;
     border: 2px solid var(--link-color);
     border-radius: 25px;
     background-color: var(--main-color);
     color: var(--second-color);
     box-shadow: 0px -1px 10px var(--link-color);
     justify-content: center;
+    padding: 4px 89px;
     
 }
 
 .submit input:hover{
     box-shadow: 0px -1px 10px   var(--neon-blue);
+    transform: scale(1.1);
+    cursor: pointer;
+
 }
 
 
 .horarios p{
     font-size: 1.2em;
 }
+
 .horarios select{
     font-size: 1em;    
 
@@ -181,18 +207,34 @@ input{
     .inputs{
     display: flex;
     flex-direction: row;
-    padding: 8px 15px;
+    padding: 11px 0px;
     justify-content: center;
     align-items: center;
-    gap: 11px;
-    }
+    width: 283px;
+}
+
+.inputs textarea{
+    width: 225px;
+}
+
+label{
+    font-size: 1em;
+    width: 66px;
+}
+input{
+    padding: 12px 0px;
+    width: 225px;
+
+}
+    
 
 
     .contact-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 386px;
+        padding: 0px;
     }
 
     .contacto-opcion{
@@ -205,7 +247,25 @@ input{
     }
 
     .contacto-opcion label{
-        width: 75px;
+        width: 89px;
 
+    }
+
+    .newsletter{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 29px;
+        margin-bottom: 20px;
+    }
+    
+    .newsletter input{
+        padding: 0px;
+        width: 16px;
+    }
+    
+    .newsletter legend{
+        font-size: 12px;
     }
 }
