@@ -191,7 +191,8 @@ label{
     .caja{
         background-color: var(--main-color);
         padding: 36px 0px;
-        width: 1000px;    }
+        width: 868px;
+    }
         
     
     .contacto{
@@ -242,7 +243,8 @@ input{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 480px;
+        width: 386px;
+        padding: 0px;
     }
 
     .contacto-opcion{
@@ -278,9 +280,7 @@ input{
     }
 
     .submit input{
-    font-size: 1.4em;
-    padding: 9px 191px;
-    align-items: center;
-    justify-content: center;
+        font-size: 1.4em;
+        padding: 9px 167px;
     }
 }
