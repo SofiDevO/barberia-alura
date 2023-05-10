@@ -1,6 +1,6 @@
 /* Menu hamburguesa */
 
-export default function hamburgerMenu(panelBtn, panel, menuLink){
+export  function hamburgerMenu(panelBtn, panel, menuLink){
     const d = document;
 
     d.addEventListener("click", (e)=>{
