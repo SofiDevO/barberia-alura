@@ -170,6 +170,14 @@ label{
 }
 
 
+.contact-form-loader{
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+
 @media(min-width:800px){
    
     #formulario-contacto{
@@ -269,5 +277,10 @@ input{
     
     .newsletter legend{
         font-size: 12px;
+    }
+
+    .submit input{
+        font-size: 1.4em;
+        padding: 9px 167px;
     }
 }
