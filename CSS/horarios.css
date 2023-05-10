@@ -1,0 +1,55 @@
+#horarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 0px;
+    background-color: #060606;
+    
+}
+
+.tabla{
+    background-color: var(--main-color);
+    color: var(--second-color);
+    
+}
+
+ table th, tr, td {
+    border: 2px solid var(--second-color);
+    box-shadow: -5px -5px 16px var(--link-color);
+}
+    
+
+
+
+
+th {
+    font-size: 2em;
+    padding: 22px;
+    width: 100px;
+}
+
+th:hover{
+    background-color: var(--neon-blue);
+    color: var(--main-color);
+} 
+
+td{
+    font-size: 1.4em;
+     padding: 14px;
+}
+td:hover{
+    background-color: var(--neon-blue);
+    color: var(--main-color);
+    font-weight: bold;
+    
+} 
+
+
+@media(min-width:800px){
+    table, th, tr, td {
+        border: 3px solid var(--neon-blue);
+        /* width: 900px; */
+        padding: 39px 154px;
+    }
+}
