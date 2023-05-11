@@ -28,6 +28,15 @@ p{font-size: 15px; text-align: justify;}
     padding: 25px 4px;
     text-align: center;
 }
+.inputs input[required]:valid{
+    border:  thin solid green
+
+}
+
+.inputs input[required]:invalid{
+    border:  thin solid red
+
+}
 .caja{
     background-color: var(--main-color);
     display: flex;
@@ -175,6 +184,32 @@ label{
     display: flex;
     align-items: center;
     justify-content: center ;
+}
+
+.contact-form-error{
+    margin-top: -1rem;
+    font-size: 80%;
+    background-color: red;
+    color: var(--second-color);
+    transition: all 800ms ease;
+}
+.contact-form-error .is-active{
+    display: block;
+    animation: show-message 1s  1 normal  0s ease-out both;
+}
+.none{
+    display: none;
+}
+
+@keyframes show-message{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+    }
+    100%{visibility: visible;
+    opacity: 1;
+    }
+
 }
 
 
