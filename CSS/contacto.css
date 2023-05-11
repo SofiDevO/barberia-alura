@@ -128,7 +128,11 @@ label{
     flex-direction: column;
 }
 
-
+.newsletter{
+    display: flex;
+    padding: 17px 118px;
+    flex-direction: column-reverse;
+}
 
 .newsletter legend{
     font-size: 12px;
@@ -145,7 +149,7 @@ label{
     color: var(--second-color);
     box-shadow: 0px -1px 10px var(--link-color);
     justify-content: center;
-    padding: 4px 89px;
+    padding: 13px 89px;
     
 }
 
@@ -178,6 +182,8 @@ label{
     color: var(--neon-blue);
 }
 
+
+/* loader & messages */
 
 .contact-form-loader{
     padding: 25px 0px;
@@ -212,7 +218,7 @@ label{
 
 }
 
-
+/* Pantalla escritorio */
 @media(min-width:800px){
    
     #formulario-contacto{
@@ -258,9 +264,7 @@ label{
     width: 283px;
 }
 
-/* .inputs textarea{
-    width: 225px;
-} */
+
 
 label{
     font-size: 1em;
@@ -303,6 +307,7 @@ input{
         align-items: center;
         margin-top: 29px;
         margin-bottom: 20px;
+        padding: 0px;
     }
     
     .newsletter input{
@@ -316,6 +321,6 @@ input{
 
     .submit input{
         font-size: 1.4em;
-        padding: 9px 167px;
+        padding: 14px 152   px;
     }
 }

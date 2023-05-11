@@ -88,27 +88,27 @@ p{font-size: 15px; text-align: justify;}
     border-radius: 20px;
 }
 
-
-
-#mision{
+#cita{
+    color: var(--second-color);
+    font-weight: bold;
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
+    padding: 47px 28px;
 }
 
+#ofrecemos{
+    display: flex;
+    background-color: var(--second-color);
+    padding: 66px 14px;}
 
-#mision .container{
-    padding: 25px;
-    
-    
+.cita-p{
+   text-align: justify;
+   font-weight: 700;
+   font-size: 1.1em;
+   padding: 10px;
 }
 
- .mision-p{
-    text-align: justify;
-    font-weight: 700;
-    font-size: 1.1em;
-    padding: 10px;
-}
 
 .sobre{
     font-size: 1.5em;
@@ -118,9 +118,9 @@ p{font-size: 15px; text-align: justify;}
 .texto{
     display: flex;
     text-align: justify;
+    margin: 36px 0px 28px 0px;
     
 }
-
 
 
 #diferenciales{
@@ -167,8 +167,6 @@ p{font-size: 15px; text-align: justify;}
 
 
 
-
-
 @media(min-width:1000px) {
  
   
@@ -202,9 +200,12 @@ p{font-size: 15px; text-align: justify;}
     }
     
     #acercaDe .container{
-        display: flex;
         flex-direction: column;
         align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 44px 5px;
     }
 
    
@@ -224,16 +225,22 @@ p{font-size: 15px; text-align: justify;}
         padding: 72px;
         
     }
-    #mision .container{
+    #ofrecemos{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 76px 44px;
+        background-color: var(--second-color);
+        padding: 158px 187px;
+
     }
 
-    .mision-p{
+    #cita{
+        text-align: center;
+        padding: 98px 213px;
+    }
+
+    .cita-p{
         font-size: 1.3em;
         text-align: center;
+        padding: 110px 0px;
     }
     
 
@@ -285,4 +292,11 @@ p{font-size: 15px; text-align: justify;}
         margin: 10px 5px;
     }
 }       
+
+
+
+
+
+
+
 
