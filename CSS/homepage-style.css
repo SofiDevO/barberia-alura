@@ -77,6 +77,19 @@ p{font-size: 15px; text-align: justify;}
     margin: 10px 5px;
 }
 
+#acercaDe .img-container{
+    background-image: url(../img/utensilios.jpg);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-position: center center;
+    border-radius: 20px;
+}
+
+
 #mision{
     display: flex;
     flex-direction: column;
@@ -141,7 +154,7 @@ p{font-size: 15px; text-align: justify;}
 }
 
 #diferenciales .img-container{
-        display: flex;
+    display: flex;
     flex-direction: column;
     background-image: url(../img/diferenciales.jpg);
     background-repeat: no-repeat;
