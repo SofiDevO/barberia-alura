@@ -89,6 +89,17 @@ p{font-size: 15px; text-align: justify;}
     border-radius: 20px;
 }
 
+#acercaDe .img-container{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 797px;
+    background-position: center center;
+    border-radius: 20px;
+   
+}
 
 #mision{
     display: flex;
@@ -196,11 +207,10 @@ p{font-size: 15px; text-align: justify;}
     }
 
     #acercaDe{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 149px 254px;}
+    display: flex;
+    align-items: center;
+    padding: 46px 47px;
+    }
     
     #acercaDe .container{
         display: flex;
@@ -261,6 +271,13 @@ p{font-size: 15px; text-align: justify;}
         height: 324px;
         width: 275px;
         background-position: center center;
+    }
+
+    #acercaDe .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 5px;
     }
 }       
 
