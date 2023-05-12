@@ -119,6 +119,10 @@ p{font-size: 15px; text-align: justify;}
     text-shadow: -0.3rem -0.5rem 0.4rem var(--neon-blue);
 }
 
+.cita-p:hover{
+    text-shadow: -.7rem -0.5rem 0.4rem var(--link-color);
+}
+
 #ofrecemos{
     display: flex;
     background-color: var(--soft-white);
@@ -178,7 +182,8 @@ p{font-size: 15px; text-align: justify;}
     align-items: center;
     margin-bottom: 57px;
     color: var(--main-color);
-
+    line-height: 1.8;
+    font-weight: bold;
 }
 
 #diferenciales h2{
@@ -215,6 +220,11 @@ p{font-size: 15px; text-align: justify;}
     justify-content: center;
     
 }
+
+#Youtube .container{
+    padding: 25px 0px;
+}
+
 
 
 
@@ -279,7 +289,7 @@ p{font-size: 15px; text-align: justify;}
     #ofrecemos{
         display: flex;
         background-color: var(--second-color);
-        padding: 158px 187px;
+        padding: 115px 187px;
 
     }
 
@@ -338,6 +348,20 @@ p{font-size: 15px; text-align: justify;}
         flex-direction: row;
         align-items: center;
         margin: 10px 5px;
+    }
+
+    #Youtube{
+        display: flex;
+        flex-direction: column;
+        padding: 139px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    #Youtube iframe{
+        width: 560px;
+        min-height: 315px;
     }
 }       
 
