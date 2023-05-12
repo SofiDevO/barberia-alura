@@ -133,14 +133,23 @@ p{font-size: 15px; text-align: justify;}
 }
 #mapa .container{
     width: 90%;
+   
 }
 
 
-#mapa h3{
+#mapa h3 {
     color: var(--second-color);
     font-size: 2em;
     text-align: center;
     font-weight: bold;
+}
+#mapa p{
+    padding: 15px 0;
+    color: var(--second-color);
+    font-size: 1em;
+    text-align: center;
+    
+
 }
 
 
