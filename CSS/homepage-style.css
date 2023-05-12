@@ -66,7 +66,7 @@ p{font-size: 15px; text-align: justify;}
     align-items: center;
     padding: 7px;
     margin-bottom: 20px;
-    background-color: rgb(211, 211, 211);
+    background-color: var(--soft-white)
 }
 
 #acercaDe .container{
@@ -84,32 +84,10 @@ p{font-size: 15px; text-align: justify;}
     background-size: cover;
     height: 285px;
     width: 270px;
-    background-position: center center;
+    background-position: center;
     border-radius: 20px;
+    background-color: var(--soft-white);
 }
-
-#cita{
-    color: var(--second-color);
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 47px 28px;
-}
-
-#ofrecemos{
-    display: flex;
-    background-color: var(--second-color);
-    padding: 66px 14px;}
-
-.cita-p{
-   text-align: justify;
-   font-weight: 700;
-   font-size: 1.1em;
-   padding: 10px;
-}
-
-
 .sobre{
     font-size: 1.5em;
     padding: 47px;
@@ -121,6 +99,51 @@ p{font-size: 15px; text-align: justify;}
     margin: 36px 0px 28px 0px;
     
 }
+
+#cita{
+    color: var(--second-color);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 47px 28px;
+}
+
+.cita-p{
+   text-align: justify;
+   font-weight: 700;
+   font-size: 1.1em;
+   padding: 10px;
+}
+
+#ofrecemos{
+    display: flex;
+    background-color: var(--soft-white);
+    padding: 66px 14px;}
+
+#mapa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 121px 0;
+    background-color: var(--dark-gray);
+
+}
+#mapa .container{
+    width: 90%;
+}
+
+
+#mapa h3{
+    color: var(--second-color);
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
 
 
 #diferenciales{
@@ -241,6 +264,11 @@ p{font-size: 15px; text-align: justify;}
         font-size: 1.3em;
         text-align: center;
         padding: 110px 0px;
+    }
+
+
+    #mapa .container{
+        width: 1000px
     }
     
 

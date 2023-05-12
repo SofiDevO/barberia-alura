@@ -8,16 +8,18 @@ body{
   font-family: var(--main-font);
   font-size: var(--font-size);
   background-repeat: no-repeat;
-  background-color: var(--main-color);
+  background-color: var(--dark-gray);
   background-size: cover;
   }
     
 p{text-align: center;  font-size: var(--font-size);}
 a{text-decoration: none; color:var(--second-color);}
 a:hover{color:  var(--neon-blue);}
-.header{
+
+
+/* .header{
   background-color: var(--second-color);
-}
+} */
 
 #servicios{
   margin-top: 99px;

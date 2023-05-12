@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
     font-family: var(--main-font);
     width: 100%;
-    background-color: var(--gray-color);
+    background-color: var(--dark-gray);
     
 }
 

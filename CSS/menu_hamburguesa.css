@@ -2,10 +2,12 @@
 :root{
   --main-color:black;
   --second-color: rgb(241, 241, 241);
+  --soft-white:rgb(211, 211, 211);
   --link-color:rgb(188, 88, 255);
+  --neon-blue:rgb(68, 191, 248);
   --gray-color:rgb(26, 26, 26);
   --soft-gray: rgb(168, 166, 166);
-  --neon-blue:rgb(68, 191, 248);
+  --dark-gray:rgb(8, 8, 8);
   --container-width:1200px;
   --font-size: 1.1em;  
   --main-font: 'Poppins', sans-serif; 
@@ -23,8 +25,7 @@ body{
     overflow-x: hidden;
     font-family: var(--main-font);
     
-    /* color:aliceblue; 
-    background-color: black */; 
+    
 }
 a{text-decoration: none; color:var(--second-color);}
 a:hover{color:  var(--neon-blue);}
@@ -50,6 +51,12 @@ a:hover{color:  var(--neon-blue);}
 
   .header img{
     width: 73px;
+    filter:drop-shadow(0 0 12px var(--neon-blue));
+  }
+
+  .header img:hover{
+    width: 78px;
+    filter:drop-shadow(0 0 12px var(--link-color));
   }
 
 
@@ -134,13 +141,13 @@ a:hover{color:  var(--neon-blue);}
     color: var(--link-color);
   }
 
-  @media(min-width:700px){
+  @media(min-width:1000px){
 
     
   .panel-btn{
     position: fixed;
     z-index: 999;
-    bottom: 87.5vh;
+    bottom: 90vh;
     right: 4vw;
     width: 4rem;
     height: 4rem;
